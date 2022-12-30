@@ -1,0 +1,48 @@
+.left {
+    width: 60%;
+  
+}
+.right {
+    width: 40%;
+   
+}
+.grid-container{
+    background-color: #182A43 ;
+    width: 500px;
+    height: 500;
+}
+.grid-container-ex {
+    background-color: #182A43;
+    width: 300px;
+    height: 300px;
+}
+.case {
+    width: 100px;
+    height: 100px;
+   
+}
+
+.tile {
+    top: 0px;
+    position:   absolute;
+    background-color: red;
+    border: solid 2px black;
+    width: 96px;
+    height: 96px;
+    transition: top 0.3s, left 0.3s;
+
+}
+.tile-ex {
+    top: 0px;
+    position:   absolute;
+    background-color: red;
+    border: solid 1px black;
+    width: 98px;
+    height: 98px;
+    transition: top 0.3s, left 0.3s;
+
+}
+
+.activeHover:hover {
+    border-color: white;
+}
